@@ -1,11 +1,33 @@
-.debug .container-fluid{
+.debug #site_header .container-fluid{
     height: 80px;
     background-color: #2C3E50;
 }
 
-.debug .container-fluid .row{
+.debug #site_header .container-fluid .row{
     height: 100%;
 }
+ 
+.debug #site_main .start{
+    height: 500px;
+    background-color: #1ABC9C;
+}
+
+.debug .schede div{
+    height: 200px;
+    background-color: black;
+}
+
+.debug .title{
+    height: 100px;
+}
+
+section.portfolio{
+    margin: 50px 0;
+}
+}
+
+
+
 
 
 
