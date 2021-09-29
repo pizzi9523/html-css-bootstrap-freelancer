@@ -1,3 +1,11 @@
-.debug{
-    background-color: bisque;
+.debug .container-fluid{
+    height: 80px;
+    background-color: #2C3E50;
 }
+
+.debug .container-fluid .row{
+    height: 100%;
+}
+
+
+
