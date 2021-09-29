@@ -14,7 +14,7 @@
 }
 
 .debug .schede div{
-    height: 200px;
+    height: 250px;
     background-color: black;
 }
 
@@ -35,7 +35,12 @@
 
 .debug #site_footer .grey{
     background-color: #3A546D;
-    height: 400px;
+    height: 300px;
+}
+
+.debug #site_footer .darkgrey{
+    background-color: #2C3E50;
+    height: 80px;
 }
 
 
