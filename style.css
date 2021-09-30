@@ -10,8 +10,20 @@
     background-color: white;
 }
 
+.bg_grey{
+    background-color: #3A546D;
+}
+
+.bg_darkgrey{
+    background-color: #2C3E50;
+}
+
 .c_white{
     color: white!important;
+}
+
+.c_green{
+    color: #1ABC9C!important;
 }
 
 .c_blue{
@@ -23,12 +35,25 @@
 }
 
 .bord_green{
-    border-color: green;
+    border-color:#1ABC9C!important;
 }
 
 .w_300{
     width: 300px;
 }
+
+.my_circle{
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 0 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 .dec_bar{
@@ -67,23 +92,9 @@ section.portfolio{
     margin: 50px 0;
 }
 
-
-.debug #site_main .about{
-    background-color: #1ABC9C;
-    height: 450px;
-
-}
-
-.debug #site_footer .grey{
-    background-color: #3A546D;
-    height: 300px;
-}
-
-.debug #site_footer .darkgrey{
-    background-color: #2C3E50;
+.copyright{
     height: 80px;
 }
-
 
 
 
