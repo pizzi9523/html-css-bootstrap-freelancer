@@ -3,7 +3,7 @@
 }
 
 .bg_green{
-    background-color: #1ABC9C;
+    background-color: #1ABC9C!important;
 }
 
 .bg_white{
@@ -20,6 +20,10 @@
 
 .c_dark{
     color: #333333!important;
+}
+
+.bord_green{
+    border-color: green;
 }
 
 .w_300{
