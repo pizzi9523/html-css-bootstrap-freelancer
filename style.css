@@ -23,7 +23,6 @@
 }
 
 
-
 .dec_bar{
     height: 5px;
     border-radius: 5px;
@@ -32,11 +31,6 @@
 
 .decoration{
     margin: auto;
-}
-
-.debug .schede div{
-    height: 250px;
-    background-color: black;
 }
 
 .debug .title{
