@@ -18,6 +18,10 @@
     color: #2C3E50!important;
 }
 
+.c_dark{
+    color: #333333!important;
+}
+
 .w_300{
     width: 300px;
 }
@@ -28,6 +32,27 @@
     border-radius: 5px;
     width: 40%;
 }
+
+.my_input, .my_textarea{
+    display: block;
+    width: 100%;
+    padding: .7rem 0.2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-bottom: 1px solid #ced4da;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.my_input::placeholder,
+.my_textarea::placeholder{
+    color: #333333;
+    font-weight: bold;
+}
+
+
 
 .decoration{
     margin: auto;
