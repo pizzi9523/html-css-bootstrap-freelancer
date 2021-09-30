@@ -9,40 +9,84 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
+    <!-- FontAwesome 5.15.3 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
 </head>
 
 <body class="debug">
-    <header id="site_header">
-        <div class="container-fluid">
+    <header id="site_header ">
+        <div class="container-fluid ">
             <div class="row">
-                <div class="col-10 d-flex align-items-center">Lorem, ipsum.</div>
-                <div class="col-2 d-flex align-items-center">Lorem.</div>
+                <nav class="navbar navbar-expand-lg navbar-dark bg_blue pb-4 pt-4">
+                    <div class="container-fluid">
+                        <a class="navbar-brand text-uppercase fw-bold" href="#">Start Boostrap</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link text-uppercase c_white fw-bold" aria-current="page" href="#">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-uppercase c_white fw-bold" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-uppercase c_white fw-bold" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
             </div>
         </div>
     </header>
     <!-- /#site_header -->
 
     <main id="site_main">
-        <section class="">
+        <section class="start_bootstrap bg_green">
             <div class="container-fluid start">
                 <div class="row">
-                    <div class="col-12 d-flex flex-column align-items-center">
-                        <div>Lorem</div>
-                        <div>Lorem, ipsum.</div>
-                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, praesentium!</div>
-                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quis impedit repudiandae
-                            similique. Ducimus, a?</div>
+                    <div class="col-12 c_white">
+                        <div class="px-4 my-5 text-center">
+                            <img class="d-block mx-auto mb-4 w_300" src="./img/avatar.svg" alt="">
+                            <h1 class="display-4 fw-bolder text-uppercase">Start Bootstrap</h1>
+                            <div class="col-lg-6 mx-auto">
+                                <div class="decoration w-50  d-flex justify-content-around align-items-center">
+                                    <div class="dec_bar bg_white"></div>
+                                    <div class="star"><i class="fa fa-star fa-2x" aria-hidden="true"></i></div>
+                                    <div class="dec_bar bg_white"></div>
+                                </div>
+                               
+                                <p class="mb-4 text-uppercase">graphic artist - web designer - illustrator</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="portfolio">
+        <section class="portfolio bg_white c_blue">
             <div class="container-fluid">
-                <div class="container-fluid container-md .container-lg ">
-                    <div class="row">
-                        <div class="col d-flex justify-content-center align-items-center title">Lorem,ipsum </div>
+                <div class="row">
+                    <div class="col-12 mb-3">
+                        <div class="px-4 my-5 text-center">
+                            <h1 class="display-4 fw-bolder text-uppercase">Portfolio</h1>
+                            <div class="col-lg-6 mx-auto">
+                                <div class="decoration w-50  d-flex justify-content-around align-items-center">
+                                    <div class="dec_bar bg_blue"></div>
+                                    <div class="star"><i class="fa fa-star fa-2x" aria-hidden="true"></i></div>
+                                    <div class="dec_bar bg_blue"></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                </div>
+                <div class="container-fluid container-md .container-lg ">
+                   
                     <div class="row schede">
                         <div class="col-sm-12 col-md-6 col-lg-4"></div>
                         <div class="col-sm-12 col-md-6 col-lg-4"></div>
@@ -64,7 +108,8 @@
                     <div class="row info">
 
                         <div class="col-12 col-md-6 col-lg-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                            Nobis dignissimos architecto doloribus amet sunt facilis molestias exercitationemuta vel blanditiis.</div>
+                            Nobis dignissimos architecto doloribus amet sunt facilis molestias exercitationemuta vel
+                            blanditiis.</div>
 
                         <div class="col-12 col-md-6 col-lg-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                             Molestiae error, a magni quam illum minima omnis beatae dolorum repudiandae officiis optio,
@@ -123,7 +168,8 @@
             </div>
             <div class="bottom_footer darkgrey">
                 <div class="row">
-                    <div class="copyright d-flex flex-column justify-content-center align-items-center">Lorem ipsum dolor sit amet consectetur.</div>
+                    <div class="copyright d-flex flex-column justify-content-center align-items-center">Lorem ipsum
+                        dolor sit amet consectetur.</div>
                 </div>
             </div>
         </div>

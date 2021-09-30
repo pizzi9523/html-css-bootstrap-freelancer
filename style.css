@@ -1,16 +1,37 @@
-.debug #site_header .container-fluid{
-    height: 80px;
+.bg_blue{
     background-color: #2C3E50;
 }
 
-.debug #site_header .container-fluid .row{
-    height: 100%;
-}
- 
-.debug #site_main .start
-{
-    height: 500px;
+.bg_green{
     background-color: #1ABC9C;
+}
+
+.bg_white{
+    background-color: white;
+}
+
+.c_white{
+    color: white!important;
+}
+
+.c_blue{
+    color: #2C3E50!important;
+}
+
+.w_300{
+    width: 300px;
+}
+
+
+
+.dec_bar{
+    height: 5px;
+    border-radius: 5px;
+    width: 40%;
+}
+
+.decoration{
+    margin: auto;
 }
 
 .debug .schede div{
